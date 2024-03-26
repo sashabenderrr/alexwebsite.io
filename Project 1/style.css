@@ -1,1 +1,55 @@
+body {
+	background-color: #eee;
+	font-family: sans-serif;
+}
 
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.timer {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 40px 30px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.display {
+	font-size: 3em;
+	margin-bottom: 40px;
+}
+
+.time-left {
+	font-size: 5em;
+	margin-bottom: 20px;
+}
+
+.session {
+	color: #777;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #2980b9;
+}
+
+button:active {
+	background-color: #1e6796;
+}
